@@ -16,6 +16,10 @@ pipeline {
             steps {
                 echo 'Deploying....'
             }
+        }stage('main') {
+            steps {
+                echo 'main....'
+            }
         }
     }
 }
