@@ -1,1 +1,7 @@
+# python venv
 passenv
+# terraform local directory
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
